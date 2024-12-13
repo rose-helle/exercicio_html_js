@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Verificação</h1>
+        <h2>Digite dois números para verificar se número B é maior que número A.</h2>
+        <form id="form">
+            Número A<input type="number" id="numberA" required />
+            Número B<input type="number" id="numberB" required />
+            <button type="submit" id="btn-verificar">Verificar</button>
+        </form>
+        <div class="message">
+            <p class="positive" >O número B é maior que o número A.</p>
+            <p class="equal">Os números são iguais</p>
+            <p class="negative">O número B não é maior que o número A.</p>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
