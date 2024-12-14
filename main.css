@@ -37,6 +37,12 @@ button{
 button:hover{
     background-color: rgb(67, 158, 67);
 }
-.message{
+.positive,
+.equal,
+.negative{
     display: none;
+    color: rgb(65, 160, 93);
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: italic;
 }
